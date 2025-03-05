@@ -1,0 +1,287 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Evita scroll horizontal */
+}
+
+.foto-minera {
+  width: 1132px;
+  height: 183.5px;
+  object-fit: cover;
+}
+.carousel-inner {
+  width: 100%;
+  max-width: 1521.6px;
+  height: 665.74px; /* Tamaño fijo */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Imágenes dentro del carrusel */
+.carousel-img {
+  width: 100%;
+  height: 100%; /* Forzar la imagen a ocupar todo el contenedor */
+  object-fit: cover; /* Recorta sin distorsionar */
+  display: block;
+}
+
+.icono-adelante {
+  background: url("/assets/icono/icons8-adelante-48.png") no-repeat center;
+  background-size: contain;
+  filter: invert(29%) sepia(90%) saturate(5000%) hue-rotate(210deg);
+  width: 25px;
+  height: 25px;
+}
+
+.icono-atras {
+  background: url("/assets/icono/icons8-atrás-48.png") no-repeat center;
+  background-size: contain;
+  filter: invert(29%) sepia(90%) saturate(5000%) hue-rotate(210deg);
+  width: 25px;
+  height: 25px;
+}
+
+.foto-tresDos {
+  width: 375px;
+  height: 166.98px;
+  object-fit: cover;
+}
+.foto-tresUno {
+  width: 375px;
+  height: 166.88px;
+  object-fit: cover;
+}
+.pad-fotos-centro {
+  padding: 15.2px 0px;
+}
+
+
+.pad-fotos-centro {
+  padding: 15.2px 0px;
+}
+
+
+.footer{
+  width: 570px;
+  height: 226.78px;
+  object-fit: cover;
+}
+
+.fondo_footer{
+  background-color: #0A4682;
+  /* width: 100vw;       min-height: 100vh;  */
+}
+
+.titulo-footer{
+  font-size: 22px;
+}
+.subtitulos-footer{
+  font-size: 18px;
+}
+
+#carrusellDos{
+  width: 226.25px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.fondo-gris{
+background-color: rgba(132, 145, 159, 0.15);
+display: flex-flexbox;
+align-items: center;
+justify-content: center;
+}
+
+
+/* Ajustar el tamaño del contenedor de imágenes pequeñas */
+.carruselDos {
+  position: relative;
+  width: 226.25px;
+  height: 100px;
+  object-fit: cover;
+  
+}
+/* Centrar las flechas verticalmente sobre las imágenes pequeñas */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 30px; /* Ajusta el tamaño del botón si es necesario */
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* Centra las flechas verticalmente */
+  margin-top: -655px;
+ 
+}
+
+/* Asegurar que las flechas no queden muy lejos */
+.carousel-control-prev {
+  left: -0px; /* Ajusta la distancia de la flecha izquierda */
+ 
+}
+
+.carousel-control-next {
+  right: -1225px; /* Ajusta la distancia de la flecha derecha */
+ 
+}
+
+/* Reducir el tamaño del ícono de flecha */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 20px;
+  height: 20px;
+  
+}
+
+.fondo-gris {
+  background-color: rgba(132, 145, 159, 0.15);
+  width: 100vw;  /* Ocupa el 100% del viewport */
+}
+
+.container-fluid {
+  width: 100vw !important; /* Sobreescribe restricciones de Bootstrap */
+  padding: 0; /* Elimina padding que pueda reducir el ancho */
+}
+
+#carouselDos {
+  width: 100vw; /* Forza el carrusel a ocupar todo el ancho */
+}
+
+.mueve-carruselDos{
+  position: relative;
+  margin-top: -45px;
+}
+.foto-pegada {
+  width: 1100px;
+  height: 500.84px;
+  object-fit: cover;
+}
+
+.subir-foto-pegada{
+  position: relative;
+  margin-top: -635px;
+}
+
+.ministerio-regiones{
+  width: 1150px;
+  height: 100.84px;
+  object-fit: cover;
+}
+
+.tramites{
+  width: 228px;
+  height: 63.81px;
+  object-fit: cover;
+  margin-right: 910px;
+  margin-top: 8px;
+}
+
+/* Ajusta el tamaño del carrusel al contenido */
+#carouselTres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%; /* Se ajusta al tamaño del contenido */
+  max-height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* Ajusta el tamaño del contenedor interno */
+#carouselTres .carousel-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%; /* Asegura que las imágenes cubran todo el ancho */
+  height: auto; /* Mantiene la proporción de las imágenes */
+  object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+}
+
+.tamaño-gris{
+  width: 1152.8px;
+  height: 113.81px;
+  object-fit: cover;
+
+}
+/* Asegurar que las imágenes no sobrepasen su tamaño */
+#carouselTres .carousel-inner img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100px; /* Altura máxima */
+  object-fit: cover; /* Evita deformaciones */
+}
+
+#carouselTres img {
+  width: 100%; /* Asegura que las imágenes cubran todo el ancho */
+  object-fit: contain; /* Ajusta la imagen sin distorsionarla */
+}
+
+/* Eliminar espacios adicionales del contenedor */
+
+  .fondo-gris-tramites {
+    background-color: rgba(132, 145, 159, 0.15);
+    width: 100vw; /* Asegura que el fondo ocupe todo el ancho del contenedor */
+    height: 100px; /* Puedes ajustar la altura según lo necesites */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0; 
+  }
+  /* Ajustar el tamaño del contenedor de imágenes pequeñas */
+
+
+/* Ajustar los botones del carrusel */
+.carousel-tres-prev,
+.carousel-tres-next {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Posicionar correctamente los botones */
+.carousel-tres-prev {
+  left: 110px;
+}
+.carousel-tres-next {
+  right: 110px;
+}
+
+.atencion{
+  width: 223px;
+  height: 73px;
+  margin: 100px;
+  margin-bottom: 35px;
+  position: relative;
+  top: -80px; /* Ajusta el valor según lo necesites */
+}
+
+
+.gob-etiquetas {
+  position: relative;
+  /* 218 */
+  width: 218px; 
+  /* 95.64 */
+  height: 95.64px;
+  object-fit: cover;
+  margin-left: 50px;
+
+}
+
+.atencion-col-1{
+  position:relative;
+  margin-left: 200px;
+}
+
+.atencion-col-3{
+  position:relative;
+  margin-right: 200px;
+}
