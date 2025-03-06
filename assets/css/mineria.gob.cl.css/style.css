@@ -285,3 +285,15 @@ justify-content: center;
   position:relative;
   margin-right: 200px;
 }
+
+.miga-pan{
+  background-color: #006CB780;
+}
+.miga-move{
+  margin-left: 263px;
+
+}
+
+.tamano-miga{
+height: 10px;
+}
