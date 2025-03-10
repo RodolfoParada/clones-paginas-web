@@ -1,0 +1,48 @@
+
+  .abajo {
+    display: inline-block;
+    position: relative;
+
+  }
+  
+  .abajo::after {
+    content: "";
+    display: block;
+    width: 50%; /* Ancho igual al texto */
+    height: 4px; /* Grosor de la línea */
+    background-color: red; /* Color rojo */
+    position: absolute;
+    bottom: -5px; /* Espaciado debajo del texto */
+    left: 0;
+    transform: translateX(50%); /* Ajustar la alineación */
+
+  }
+
+  .izquierda {
+    display: inline-block;
+    position: relative;
+
+  }
+  
+  .izquierda::after {
+    content: "";
+    display: block;
+    width: 50%; /* Ancho igual al texto */
+    height: 4px; /* Grosor de la línea */
+    background-color: red; /* Color rojo */
+    position: absolute;
+    bottom: -5px; /* Espaciado debajo del texto */
+    left: 0;
+    transform: translateX(5%); /* Ajustar la alineación */
+
+  }
+
+  .iconos-sociales{
+    
+   width: 17%;
+   height: auto;
+  }
+
+  .subir-texto {
+    margin-bottom: -50px; /* Ajusta el valor según lo necesites */
+  }
