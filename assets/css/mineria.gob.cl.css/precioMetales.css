@@ -1,0 +1,138 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Evita scroll horizontal */
+  }
+  
+.color-barra-superior{
+    background-color: #001c41 !important; /* Cambia el color de fondo */
+    color: white; /* Cambia el color del texto si es necesario */
+    padding: 10px; /* Opcional: agrega espacio alrededor del contenido */
+}
+
+.color-naranja{
+    background-color:rgba(255,105,0,1);
+}
+
+.texto-azul{
+    color: #001c41 !important;
+}
+
+.buscador {
+    width: 100% !important; /* Ocupa todo el espacio disponible */
+    max-width: 500px; /* Evita que sea demasiado grande */
+    border-radius: 0px;
+    margin-right: 70px;
+    
+}
+
+.img-blanca {
+    filter: invert(1);
+}
+
+.fondo-buscador{
+    display: flex;
+    background-color: #001c41 !important;
+    width: 30px;  /* Ajusta el tamaño según necesites */
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-input{
+    border:2px solid transparent;
+    border-right: 39px solid #001c41 !important; 
+}
+
+.color-barra-inferior{
+    background-color: #0f69c4 !important; /* Cambia el color de fondo */
+    color: white; /* Cambia el color del texto si es necesario */
+    padding: 10px; /* Opcional: agrega espacio alrededor del contenido */
+}
+
+.texto{
+    text-align: justify;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 50px; 
+    height: 50px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 20px; 
+    height: 20px;
+  }
+
+
+  .imagenes{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: contain; /* Ajusta la imagen completa dentro del círculo */
+    background-color: white; /* Fondo para los espacios vacíos */
+    display: block; /* Asegura que no haya espacios extra */
+    border: 2px solid #0f69c4; /* Borde opcional para visualización */
+    padding: 5px; /* Agrega un poco de espacio para evitar bordes cortados */
+  }
+
+  .contenedor {
+    display: flex; /* Usa flexbox para alinear en fila */
+    align-items: center; /* Asegura alineación vertical */
+    gap: 10px; /* Espaciado entre la imagen y el texto */
+}
+  .linea {
+    display: flex; /* Permite que el span ocupe todo el ancho */
+    align-items: center; /* Asegura alineación del texto */
+    position: relative;
+    width: 100%; /* Ocupar todo el ancho del contenedor */
+    padding-bottom: 5px; /* Espacio entre el texto y la línea */
+}
+
+.linea::after {
+    content: "";
+    display: block;
+    width: 100%; /* Hace que la línea se extienda al ancho total */
+    height: 1px; /* Grosor de la línea */
+    background-color: red; /* Color de la línea */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.tram{
+    width: 100%;
+    height: 100%;
+}
+
+.otros{
+    width: 100%;
+    height: 100%;
+}
+.diap{
+    width: 100%;
+    height: 100%; 
+}
+
+.footer-fondo{
+    background-color: #373737;
+}
+
+
+ .x-footer {
+    filter: grayscale(100%) brightness(1000%);
+} 
+
+.iconos-footer-circule {
+    width: 25px; /* Ajusta el tamaño según necesites */
+    height: 25px;
+    border-radius: 50%; /* Convierte en círculo */
+    object-fit: cover; /* Ajusta la imagen dentro del círculo */
+    border: 2px solid white; /* Opcional: agregar borde */
+}
