@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Evita el scroll horizontal */
+}
+
+.color-fondo{
+   background-color: #F2F2F2;
+}
+
+.texto-navbar{
+    color: #0F69B4 !important;;
+}
+
+.bg-custom {
+    background-color: white !important; /* Color azul Bootstrap, puedes cambiarlo */
+    border-radius: 5px; /* Bordes redondeados opcional */
+    padding: 5px 10px; /* Espaciado para que se vea mejor */
+  }
+
+  .bg-custom a {
+    color: white !important; /* Para asegurar que el texto sea blanco */
+  }
+
+  .navbar-nav .nav-link.texto-navbar {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .navbar-nav .nav-link.texto-navbar img {
+    margin-right: 5px;
+  }
+  
+  /* Asegura que el fondo sea blanco en Empresas e Instituciones */
+  .navbar-nav .nav-link.texto-navbar:nth-child(4),
+  .navbar-nav .nav-link.texto-navbar:nth-child(5) {
+    background-color: white !important;
+    color: black !important; /* Ajusta según el color del resto del navbar */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    padding: 8px 12px;
+  }
+  
+  .fondo-rojo{
+    background-color: #b82d27;
+ }
+
+ .carrusel-tres{
+    max-width: 100%;
+    overflow: hidden;
+    height: 90%;
+ }
+
+
+ 
+ .fondo-azul {
+    max-width: 100%;
+    height: 40%;
+    background-color: #0F69B4;
+
+}
