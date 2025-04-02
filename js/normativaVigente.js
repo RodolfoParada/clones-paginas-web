@@ -821,5 +821,4 @@ class NormativaMinera extends HTMLElement {
     }
   }
   
-  window.customElements.define("normativa-minera", NormativaMinera);
-  
+ 
