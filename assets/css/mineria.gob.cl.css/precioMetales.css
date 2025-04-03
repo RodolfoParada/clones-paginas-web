@@ -136,3 +136,12 @@ html,body {
     object-fit: cover; /* Ajusta la imagen dentro del círculo */
     border: 2px solid white; /* Opcional: agregar borde */
 }
+
+.cuadro{
+    background-color:  #001c41 ;
+    width: 120px;
+    border-radius: 6px;
+    height: 60px;
+    margin: 5px;
+    
+}
