@@ -49,17 +49,104 @@ html, body {
     background-color: #b82d27;
  }
 
- .carrusel-tres{
-    max-width: 100%;
-    overflow: hidden;
-    height: 90%;
- }
+/* Contenedor del carrusel */
+.carrusel-tres {
+  max-width: 1000px; /* Ajusta el tamaño del carrusel */ 
+  margin: 0 auto; /* Centra el carrusel */
+  max-height: 396px; /* Controla la altura */
+  position: relative; /* Asegura que los elementos internos se posicionen bien */
+}
+
+/* Ajuste de las imágenes */
+.carrusel-tres img {
+  width: 100%; /* Ajusta las imágenes al ancho del carrusel */
+  height: 396px; /* Mantiene una altura fija */
+  object-fit: cover; /* Evita distorsión */
+}
+
+/* Fondo del carrusel */
+.new-color {
+  background-color: rgb(50, 61, 90);
+  max-width: 100%;
+  height: 396px; /* Controla la altura */
+}
+
+/* Asegurar que los botones sean visibles */
+.carousel-control-prev,
+.carousel-control-next {
+  display: flex !important; /* Fuerza su visibilidad */
+  align-items: center; /* Centra el icono verticalmente */
+  justify-content: center; /* Centra el icono horizontalmente */
+  width: 10%; /* Espacio suficiente para hacer clic */
+  z-index: 1000; /* Se asegura de que estén encima de las imágenes */
+  background-color: rgba(0, 0, 0, 0.3); /* Fondo semi-transparente para hacerlas visibles */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Ajuste del icono de las flechas */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: white; /* Hace las flechas visibles */
+  border-radius: 50%; /* Hace las flechas más atractivas */
+  padding: 15px; /* Aumenta el tamaño del icono */
+}
 
 
- 
+
  .fondo-azul {
-    max-width: 100%;
-    height: 40%;
-    background-color: #0F69B4;
+  width: 100%;
+  min-height: 40vh; /* Garantiza una altura mínima */
+  background-color: #0F69B4;
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Centra horizontalmente */
 
+}
+.rojo{
+  background-color: #b82d27;
+  height: 20vh; /* Asegura que la altura sea relativa al viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-blanco {
+  filter: brightness(0) invert(1);
+}
+.invert-red {
+  filter: invert(100%) sepia(100%) saturate(500%) hue-rotate(340deg);
+}
+.pie{
+  background-color: #124166;;
+}
+
+
+
+.text{
+  color: #0F69B4;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.move-image{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  margin-right: 500px;
+}
+
+.imagen-transparente {
+ background-color: transparent;
+  opacity: 1;
+  height: 80%;
+  margin-left: 60px;
+}
+
+.tamano{
+  width: 85%;
+  height: 75%;
+  margin-top: -30px;
 }
