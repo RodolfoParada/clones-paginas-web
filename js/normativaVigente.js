@@ -1,4 +1,4 @@
-class AcordeonAnidado extends HTMLElement {
+ class AcordeonAnidado extends HTMLElement {
   constructor() {
     super();
   }
@@ -821,4 +821,4 @@ class NormativaMinera extends HTMLElement {
     }
   }
   
- 
+  window.customElements.define("normativa-minera", NormativaMinera);
